@@ -2588,10 +2588,12 @@ importers:
       '@dxos/util': workspace:*
       '@dxos/websocket-rpc': workspace:*
       '@types/express': ^4.17.17
+      '@types/lunr': ^2.3.5
       '@types/node': ^18.11.9
       date-fns: ^2.29.3
       express: ^4.17.1
       isomorphic-ws: ^4.0.1
+      lunr: ^2.3.9
       nodemon: ^2.0.22
       ts-node: 10.9.1
       typescript: ^5.2.2
@@ -2616,9 +2618,11 @@ importers:
       date-fns: 2.29.3
       express: 4.18.2
       isomorphic-ws: 4.0.1_ws@7.5.9
+      lunr: 2.3.9
       ws: 7.5.9
     devDependencies:
       '@types/express': 4.17.17
+      '@types/lunr': 2.3.5
       '@types/node': 18.11.9
       nodemon: 2.0.22
       ts-node: 10.9.1_rke3py7up3u364r7wwqfla7cdm_sxkixsbzgfj5nygwm6be4klchu
@@ -18251,6 +18255,10 @@ packages:
     resolution: {integrity: sha512-ssE3Vlrys7sdIzs5LOxCzTVMsU7i9oa/IaW92wF32JFb3CVczqOkru2xspuKczHEbG3nvmPY7IFqVmGGHdNbYw==}
     dev: false
 
+  /@types/lunr/2.3.5:
+    resolution: {integrity: sha512-C4xYh7A4FRKg70AWJCe27oJYVPhUlEY5MQ4dKbRR7G6Xsb2HiqO672yWHRvWxl8/h7IuISvwDjv88ECHUEsV2A==}
+    dev: true
+
   /@types/mailparser/3.4.0:
     resolution: {integrity: sha512-MotFinA1sT2nPFtQw1WpaF3X6I1OdbEloaixMmk924BOYqwHmlZkoi7XcVUXHI+7i0to8JguHqYj5k/E6c9Chw==}
     dependencies:
@@ -19066,7 +19074,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.3.9_@types+node@18.11.9
+      vite: 4.3.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -31058,7 +31066,6 @@ packages:
 
   /lunr/2.3.9:
     resolution: {integrity: sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==}
-    dev: true
 
   /luxon/2.5.2:
     resolution: {integrity: sha512-Yg7/RDp4nedqmLgyH0LwgGRvMEKVzKbUdkBYyCosbHgJ+kaOUx0qzSiSatVc3DFygnirTPYnMM2P5dg2uH1WvA==}
