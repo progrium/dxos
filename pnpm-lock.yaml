@@ -2592,6 +2592,7 @@ importers:
       '@types/node': ^18.11.9
       date-fns: ^2.29.3
       express: ^4.17.1
+      flexsearch: ^0.7.31
       isomorphic-ws: ^4.0.1
       lunr: ^2.3.9
       minisearch: ^3.0.2
@@ -2618,6 +2619,7 @@ importers:
       '@dxos/websocket-rpc': link:../mesh/websocket-rpc
       date-fns: 2.29.3
       express: 4.18.2
+      flexsearch: 0.7.31
       isomorphic-ws: 4.0.1_ws@7.5.9
       lunr: 2.3.9
       minisearch: 3.3.0
@@ -26241,6 +26243,10 @@ packages:
 
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+
+  /flexsearch/0.7.31:
+    resolution: {integrity: sha512-XGozTsMPYkm+6b5QL3Z9wQcJjNYxp0CYn3U1gO7dwD6PAqU1SVWZxI9CCg3z+ml3YfqdPnrBehaBrnH2AGKbNA==}
+    dev: false
 
   /flow-parser/0.190.0:
     resolution: {integrity: sha512-9jxaqkeeARD//nhwDoN//j+EFcwzKJCGPtTQzUdKZdlZG3JmUdbV6XJFLD9sbWFPUmcCT1mblwILwdoq0mKWQw==}
