@@ -2588,11 +2588,12 @@ importers:
       '@dxos/util': workspace:*
       '@dxos/websocket-rpc': workspace:*
       '@types/express': ^4.17.17
+      '@types/flexsearch': ^0.7.4
       '@types/lunr': ^2.3.5
       '@types/node': ^18.11.9
       date-fns: ^2.29.3
       express: ^4.17.1
-      flexsearch: ^0.7.31
+      flexsearch: 0.7.21
       isomorphic-ws: ^4.0.1
       lunr: ^2.3.9
       minisearch: ^3.0.2
@@ -2619,13 +2620,14 @@ importers:
       '@dxos/websocket-rpc': link:../mesh/websocket-rpc
       date-fns: 2.29.3
       express: 4.18.2
-      flexsearch: 0.7.31
+      flexsearch: 0.7.21
       isomorphic-ws: 4.0.1_ws@7.5.9
       lunr: 2.3.9
       minisearch: 3.3.0
       ws: 7.5.9
     devDependencies:
       '@types/express': 4.17.17
+      '@types/flexsearch': 0.7.4
       '@types/lunr': 2.3.5
       '@types/node': 18.11.9
       nodemon: 2.0.22
@@ -17944,6 +17946,10 @@ packages:
     resolution: {integrity: sha512-frsJrz2t/CeGifcu/6uRo4b+SzAwT4NYCVPu1GN8IB9XTzrpPkGuV0tmh9mN+/L0PklAlsC3u5Fxt0ju00LXIw==}
     dev: true
 
+  /@types/flexsearch/0.7.4:
+    resolution: {integrity: sha512-R5ZZmhxOBquntySny8dWYLDGdPJlX9K6p6vcj1w5NWGQ33X4V8MEtdQXK5KFFR1j6o0RhbPMdLSVg5XULVn3oA==}
+    dev: true
+
   /@types/fs-ext/2.0.0:
     resolution: {integrity: sha512-v+rZ57B796XFBS4gbkYnmsmGdh8zDdcyFFtA+GqNdeD75MlS97m+hknE/JixwlxbpvPwUqoYraf3ePC6r+ByXw==}
     dependencies:
@@ -19078,7 +19084,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.3.9
+      vite: 4.3.9_@types+node@18.11.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -26244,8 +26250,8 @@ packages:
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
 
-  /flexsearch/0.7.31:
-    resolution: {integrity: sha512-XGozTsMPYkm+6b5QL3Z9wQcJjNYxp0CYn3U1gO7dwD6PAqU1SVWZxI9CCg3z+ml3YfqdPnrBehaBrnH2AGKbNA==}
+  /flexsearch/0.7.21:
+    resolution: {integrity: sha512-W7cHV7Hrwjid6lWmy0IhsWDFQboWSng25U3VVywpHOTJnnAZNPScog67G+cVpeX9f7yDD21ih0WDrMMT+JoaYg==}
     dev: false
 
   /flow-parser/0.190.0:
