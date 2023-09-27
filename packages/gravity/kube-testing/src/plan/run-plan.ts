@@ -11,7 +11,6 @@ import { join } from 'node:path';
 import seedrandom from 'seedrandom';
 
 import { sleep, latch } from '@dxos/async';
-import { cancelWithContext, Context } from '@dxos/context';
 import { PublicKey } from '@dxos/keys';
 import { LogLevel, createFileProcessor, log } from '@dxos/log';
 
